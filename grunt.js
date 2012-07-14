@@ -45,7 +45,8 @@ module.exports = function(grunt) {
         browser: true
       },
       globals: {
-        enyo: true
+        enyo: true,
+        chai: true
       }
     },
     uglify: {}

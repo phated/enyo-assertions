@@ -1,3 +1,4 @@
 enyo.depends(
-  'dist/PACKAGE_NAME.js'
+  'support/chai/chai.js',
+  'dist/Assertions.js'
 );

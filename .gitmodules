@@ -10,3 +10,6 @@
 [submodule "support/lib/layout"]
 	path = support/lib/layout
 	url = git@github.com:enyojs/layout
+[submodule "support/chai"]
+	path = support/chai
+	url = git@github.com:chaijs/chai
