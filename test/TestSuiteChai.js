@@ -1,6 +1,6 @@
 enyo.kind({
   name: "TestSuiteChai",
-  kind: Assertions,
+  kind: 'Assertions',
 
   err: function(fn, msg) {
     try {
