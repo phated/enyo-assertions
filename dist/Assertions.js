@@ -1,8 +1,8 @@
-/*! Assertions - v0.1.0 - 2012-07-13
+/*! Assertions - v0.1.0 - 2012-08-04
 * Copyright (c) 2012 Blaine Bublitz; Licensed MIT */
 
 enyo.kind({
-  name: 'Assertions',
+  name: 'phated.Assertions',
   kind: enyo.TestSuite,
 
   create: function(){
