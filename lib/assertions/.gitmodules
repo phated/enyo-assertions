@@ -1,0 +1,15 @@
+[submodule "support/enyo"]
+	path = support/enyo
+	url = git@github.com:enyojs/enyo
+[submodule "support/lib/onyx"]
+	path = support/lib/onyx
+	url = git@github.com:enyojs/onyx
+[submodule "support/lib/extra"]
+	path = support/lib/extra
+	url = git@github.com:enyojs/extra
+[submodule "support/lib/layout"]
+	path = support/lib/layout
+	url = git@github.com:enyojs/layout
+[submodule "support/chai"]
+	path = support/chai
+	url = git@github.com:chaijs/chai
