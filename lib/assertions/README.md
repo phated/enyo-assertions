@@ -4,13 +4,15 @@ EnyoJS wrapper for the Chai.js assertion library
 
 ## Why?
 
-Abstracts the enyo.TestSuite finish() method into this.assert calls (similar to the Test Package Wishlist)
+Abstracts the enyo.TestSuite finish() method into this.assert or this.expect calls (similar to the Test Package Wishlist)
 
 ## Usage
 
+Assert
+
 ```javascript
 enyo.kind({
-  name: 'TestSuiteChai',
+  name: 'TestSuiteAssert',
   kind: 'phated.Assertions',
 
   testAssert: function(){
@@ -18,6 +20,23 @@ enyo.kind({
     this.assert(foo == 'bar', "expected foo to equal `bar`");
   }
 });
+```
+
+or
+
+Expect
+
+```javascript
+enyo.kind({
+  name: 'TestSuiteExpect',
+  kind: 'phated.Assertions',
+
+  testTrue: function(){
+    this.expect(true).to.be.true;
+    this.expect(false).to.not.be.true;
+    this.expect(1).to.not.be.true;
+  }
+})
 ```
 
 ## Dependencies
