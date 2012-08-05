@@ -1,5 +1,5 @@
 enyo.kind({
-  name: 'TestSuiteChai',
+  name: 'TestSuiteAssert',
   kind: 'phated.Assertions',
 
   err: function(fn, msg) {

@@ -1,5 +1,6 @@
 enyo.depends(
   "$lib/extra/test",
   '../package.js',
-  'TestSuiteChai.js'
+  'TestSuiteExpect.js',
+  'TestSuiteAssert.js'
 );
